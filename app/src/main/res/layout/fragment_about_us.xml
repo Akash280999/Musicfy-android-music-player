@@ -1,0 +1,60 @@
+<RelativeLayout
+        xmlns:android = "http://schemas.android.com/apk/res/android"
+        xmlns:app = "http://schemas.android.com/apk/res-auto" android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:clickable = "true"
+        android:id = "@+id/fragment_about_us"
+        android:background = "@drawable/gradient" >
+    
+    <ImageView
+            android:layout_width = "180dp"
+            android:layout_height = "160dp"
+            android:layout_centerHorizontal = "true"
+            android:layout_marginTop = "10dp"
+            android:src = "@drawable/mini_crop_profile"
+            android:id = "@+id/proPic" />
+    
+    <TextView
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_below = "@id/proPic"
+            android:layout_marginTop = "10dp"
+            android:layout_centerHorizontal = "true"
+            android:text = "Akash Kumar"
+            android:textColor = "#360951"
+            android:textSize = "18sp"
+            android:id = "@+id/txtName"
+            android:textAllCaps = "true"
+            android:layout_marginBottom = "5dp"
+            app:fontFamily = "@font/aclonica" />
+    
+    <TextView
+            android:layout_margin = "3dp"
+            android:id = "@+id/textDetails"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_centerHorizontal = "true"
+            android:paddingLeft = "5dp"
+            android:text =
+                    "                                                     'Echo'® : Version 1.0\nThis App is a Music Player designed to play music with attractive and cool \n              features like 'shake' to change the song and visualizations.\n Contact Details:\n                                          📧 Email ID - XXXXXXXX@gmail.com\n                                      📞 Phone number - +91XXXXXXX389\n                                                 📱 Whats app - +91XXXXXXXX23 \n\n                                           © 2019-2020 All Rights Reserved.\n
+
+  \nThe designer and publisher have taken care in the preparation of this software, but make no expressed or implied warranty of any kind and assume no responsibility
+for errors or omissions. No liability is assumed for incidental or consequential damages in connection with or arising out of the use of the information or programs
+contained herein.\n\n
+This software is protected by copyright, and permission must be obtained from the publisher prior to any prohibited reproduction, storage in a retrieval system, or
+transmission in any form or by any means, electronic, mechanical, photocopying, recording, or likewise.\n\nFor more information write us to or call us at: +91XXXXXXX228"
+            android:layout_below = "@id/txtName"
+            android:textSize = "10sp"
+            android:textStyle = "bold" />
+    
+    <TextView
+            android:layout_width = "wrap_content"
+            android:layout_below = "@+id/textDetails"
+            android:layout_centerHorizontal = "true"
+            android:text = "Thank You!!😃"
+            android:textStyle = "bold"
+            android:layout_height = "wrap_content"
+            app:fontFamily = "serif-monospace"
+            android:textColor = "#0D1CA5" />
+
+</RelativeLayout >
