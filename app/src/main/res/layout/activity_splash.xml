@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:layout_height = "match_parent"
+        android:layout_width = "match_parent"
+        android:background = "@drawable/bg_gradient" >
+    
+    <ImageView
+            android:layout_width = "250dp"
+            android:layout_height = "210dp"
+            android:id = "@+id/logo"
+            android:background = "@drawable/musicfy"
+            android:layout_centerInParent = "true"
+            android:minHeight = "0dp"
+            android:minWidth = "0dp" />
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_centerVertical="true"-->
+    
+    <RelativeLayout
+            android:layout_width = "match_parent"
+            android:layout_alignParentBottom = "true"
+            android:layout_marginLeft = "30dp"
+            android:layout_height = "40dp" >
+        
+        <TextView
+                android:layout_height = "wrap_content"
+                android:layout_width = "wrap_content"
+                android:textSize = "17sp"
+                android:layout_toLeftOf = "@+id/heart"
+                android:fontFamily = "cursive"
+                android:text = "Made with "
+                android:textColor = "#aaaaaa" />
+        
+        <TextView
+                android:layout_height = "300dp"
+                android:layout_width = "30dp"
+                android:layout_centerInParent = "true"
+                android:textSize = "17sp"
+                android:id = "@+id/heart"
+                android:text = "@string/heart"
+                android:textColor = "#ff0000" />
+        
+        <TextView
+                android:layout_height = "wrap_content"
+                android:layout_width = "wrap_content"
+                android:fontFamily = "cursive"
+                android:textSize = "17sp"
+                android:layout_toRightOf = "@+id/heart"
+                android:text = "by Akash"
+                android:textColor = "#bdbdbd" />
+    
+    </RelativeLayout >
+    
+    <TextView
+            android:text = "v1.0"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_below = "@+id/logo"
+            android:textColor = "#aaaaaa"
+            android:layout_centerInParent = "true" />
+    
+</RelativeLayout >
